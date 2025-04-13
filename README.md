@@ -24,19 +24,4 @@ Browser Support: Currently, this proof of concept only targets Google Chrome. Ho
 This project serves as a stark reminder of the ongoing risks and challenges in digital security, particularly within widely used platforms like Discord. By understanding these vulnerabilities, users can take proactive steps to secure their accounts and personal information against unauthorized access.
 
 # Usage Guide
-# Step 1: Create a Discord Webhook
-Create a Discord Server: Ensure you have or create a new Discord server where you possess webhook permissions.
-Create a Text Channel: In your server, create a new text channel dedicated to receiving the data.
-Setup Webhook:
-Navigate to the settings of the channel you created.
-Select "Integrations" followed by "Webhooks".
-Click on "New Webhook" to create a new webhook for this channel.
-# Step 2: Obtain Webhook URL
-Copy Webhook URL: In the webhook setup window, you will see an option to copy the webhook URL. Make sure to copy this URL; it will be used to send the extracted tokens to your Discord channel.
-# Step 3: Configure the Grabber
-Insert Webhook URL into Code: Open the token grabber code and locate the placeholder YOUR WEBHOOK URL. Replace this placeholder with the webhook URL you copied in the previous step.
-Save Changes: Ensure that you save the modifications to the code.
-# Step 4: Execution on the Target Machine
-Run the Grabber: With the code properly configured, it's ready to be executed on the victim's machine. Remember, for this step to be successful, you need physical or authorized access to the device.
-# Step 5: Token Retrieval
-Check Your Discord Channel: If the victim has previously logged into Discord via their Chrome browser, the tokens should now be transmitted to the Discord channel you set up. These tokens appear in the channel linked to the webhook you configured earlier.
+first just open the tool and install the requirement txt and then open the tool and put the discord id of target and i advise u to use proxy bcz disocrd will limit ur ip so use proxy this tool i tried it and i got someons token within 5 days so its working enjoy>>>!
